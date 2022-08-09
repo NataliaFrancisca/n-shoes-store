@@ -18,9 +18,18 @@
 
 .container-product button{
     width: 100%;
-    padding: 10px 0;
     border: solid black 3px;
-    font-size: 1em;
-
     cursor: pointer;
+    display: flex;
+}
+
+.container-product button a{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+
+    font-weight: 600;
+    font-size: 1em;
 }

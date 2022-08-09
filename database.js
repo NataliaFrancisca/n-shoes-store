@@ -1,5 +1,6 @@
 const data = [
     {
+        id: 0,
         marca: "Converse",
         url: "converse-dia-de-muertos-chuck-70",
         produto: "Día de Muertos Chuck 70",
@@ -15,6 +16,7 @@ const data = [
     },
 
     {
+        id: 1,
         marca: "Converse",
         url: "converse-authentic-glam-chuck-70",
         produto: "Authentic Glam Chuck 70",
@@ -30,6 +32,7 @@ const data = [
     },
 
     {
+        id: 2,
         marca: "Converse",
         url: "converse-run-star-hike",
         produto: "Run Star Hike",

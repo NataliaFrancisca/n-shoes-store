@@ -1,8 +1,0 @@
-#container-products{
-    padding: 0px 12px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 10px;
-}

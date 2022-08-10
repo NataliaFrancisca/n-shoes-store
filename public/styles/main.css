@@ -96,8 +96,8 @@ footer p{
     align-items: center;
     justify-content: space-between;
     background-color: orchid;
-    margin: 0 12px;
-    border: solid black 3px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
 }
 
 #container-home #texts{

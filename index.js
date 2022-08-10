@@ -14,10 +14,13 @@ app.set('view engine', 'handlebars')
 app.use(express.static('public'))
 
 
-app.get('/product/:id', (req, res) => {
-
+app.get('/products/:id', (req, res) => {
     const productFiltered= products.filter(product => product.id == req.params.id);
     res.render('product', {productFiltered})
+})
+
+app.get('/products', (req, res) => {
+    res.render('products', {products})
 })
 
 // HOME - PRODUTOS

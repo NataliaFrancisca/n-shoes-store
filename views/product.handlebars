@@ -1,5 +1,20 @@
 <main id="container-product">
-     {{#each productFiltered}}
-        <h1>{{produto}}</h1>
+    {{#each productFiltered}}
+        <div id="product-image">
+            <img src={{{images.second}}}>
+        </div>
+
+        <div id="product-details">
+            <div>
+                <h2>{{marca}}</h2>
+                <h1>{{produto}}</h1>
+                <p>{{textDetails}}</p>
+                <span>R${{preco}}</span>
+            </div>
+           
+
+            <button>COMPRAR</button>
+        </div>
+
     {{/each}}
 </main>

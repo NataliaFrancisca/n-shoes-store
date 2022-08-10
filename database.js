@@ -18,6 +18,23 @@ const data = [
     {
         id: 1,
         marca: "Converse",
+        url: "converse-chuck-70-embroidered-lips",
+        produto: "Chuck 70 Embroidered Lips",
+        preco: 455, 
+        textDetails: "Wear your heart on your Chucks. These high top Chuck 70 sneakers combine the unmistakable Chuck Taylor features you know and love with lovingly embroidered details and unexpected kiss prints at the outsole.",
+        image: "/images/Chuck-70-Embroidered-Lips-1.jpg",
+        images: [
+            {url: "images/Chuck-70-Embroidered-Lips-1.jpg"},
+            {url: "images/Chuck-70-Embroidered-Lips-2.jpg"},
+            {url: "images/Chuck-70-Embroidered-Lips-3.jpg"},
+            {url: "images/Chuck-70-Embroidered-Lips-4.jpg"},
+
+        ]
+    },
+
+    {
+        id: 2,
+        marca: "Converse",
         url: "converse-authentic-glam-chuck-70",
         produto: "Authentic Glam Chuck 70",
         preco: 245, 
@@ -32,7 +49,7 @@ const data = [
     },
 
     {
-        id: 2,
+        id: 3,
         marca: "Converse",
         url: "converse-run-star-hike",
         produto: "Run Star Hike",

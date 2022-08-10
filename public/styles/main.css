@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+menu{
+    padding: 8px 12px;
+    width: 100%;
+}
+
+menu nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+menu nav .title{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: all .2s ease;
+    font-family: 'Prompt', sans-serif;
+}
+
+.title:hover{
+    color: orchid;
+}
+
+menu ul{
+    display: flex;
+    list-style: none;
+}
+
+menu ul li{
+    padding: 6px 8px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+menu ul li:hover{
+    background-color: orchid;
+    border-radius: 5px;
+}
+
+menu ul li:last-child{
+    margin-left: 10px;
+}
+
+menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    padding: 10px 12px;
+    width: 100%;
+}
+
+footer p{
+    padding: 16px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#container-products{
+    padding: 0px 12px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 10px;
+}
+
+#container-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orchid;
+    margin: 0 12px;
+    border: solid black 3px;
+}
+
+#container-home h1{
+    width: 60%;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#container-home #grid-images-home{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+#grid-images-home img{
+    height: auto;
+    width: 90%;
+    object-fit: cover;
+    border: solid black 3px;
+}
+
+@media screen and (max-width: 500px){
+
+    #container-home{
+        flex-direction: column;
+    }
+
+
+    #container-home h1{
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    #container-home #grid-images-home{
+       width: 100%;
+    }
+}

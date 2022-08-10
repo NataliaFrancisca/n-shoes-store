@@ -89,37 +89,3 @@ footer p{
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 10px;
 }
-
-#container-home{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: orchid;
-    margin: 0 12px;
-    border: solid black 3px;
-}
-
-#container-home h1{
-    width: 60%;
-    font-size: 3em;
-    font-weight: 700;
-    text-align: center;
-}
-
-#container-home #grid-images-home{
-    width: 40%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-    justify-items: center;
-    padding: 10px;
-}
-
-#grid-images-home img{
-    height: auto;
-    width: 90%;
-    object-fit: cover;
-    border: solid black 3px;
-}

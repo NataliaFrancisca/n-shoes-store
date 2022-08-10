@@ -100,11 +100,22 @@ footer p{
     border: solid black 3px;
 }
 
-#container-home h1{
+#container-home #texts{
+    width: 60%;
+    padding: 0 10px;
+}
+
+#texts p{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: justify;
+}
+
+#texts h1{
     width: 60%;
     font-size: 3em;
     font-weight: 700;
-    text-align: center;
+    font-family: 'Prompt', sans-serif;
 }
 
 #container-home #grid-images-home{
@@ -131,10 +142,10 @@ footer p{
         flex-direction: column;
     }
 
-
-    #container-home h1{
-        width: 100%;
+    #container-home p{
+        width: 90%;
         font-size: 1.2em;
+        padding: 10px 0;
     }
 
     #container-home #grid-images-home{

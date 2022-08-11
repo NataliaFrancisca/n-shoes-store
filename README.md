@@ -16,4 +16,10 @@ O projeto é a página da marca de tênis Converse, onde tem a tela inicial, pro
 
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/github-images-6c299.appspot.com/o/n-shoes.png?alt=media&token=4a9e6c5b-4ad1-4688-98ec-73b9d6671835)
 
-🔗 [veja aqui o projeto]()
+# Rodando localmente
+
+1. Faça o clone do projeto no seu computador https://github.com/NataliaFrancisca/shoes-store-handlebars
+2. Instale os pacotes necessários com `npm install`
+3. Inicie o projeto com o comando `npm start`
+4. Por padrão o projeto vai rodar na porta 3000.
+5. Pronto!!! 🎉
